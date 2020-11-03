@@ -10,7 +10,7 @@ minetest.register_craft({
 minetest.register_craft({
 	output = 'currency:shop',
 	recipe = {
-		{'default:sign_wall'},
+		{'default:sign_wall_wood'},
 		{'default:chest_locked'},
 	}
 })
@@ -18,7 +18,7 @@ minetest.register_craft({
 minetest.register_craft({
 	output = 'currency:barter',
 	recipe = {
-		{'default:sign_wall'},
+		{'default:sign_wall_wood'},
 		{'default:chest'},
 	}
 })
